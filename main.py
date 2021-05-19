@@ -18,6 +18,9 @@ def rem(a,b):
 def quiotent(a, b):
     return a // b
 
+def expotential(base, exponent):
+    return base ** exponent
+
 def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
@@ -26,6 +29,7 @@ def __init__():
     print('Tan value of number 10 is : ' + str(tan_val))
     print(rem(10,3))
     print(mul_num(5,10))
+    print(expotential(3,5))
 
 
 __init__()
