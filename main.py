@@ -34,6 +34,9 @@ def rem(a,b):
 def quiotent(a, b):
     return a // b
 
+def addition(a,b):
+    return (a+b)
+
 def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
@@ -46,6 +49,7 @@ def __init__():
     print(rem(10,3))
     print(mul_num(5,10))
     print(subtraction(5,3))
+    print(addition(10,20))
 
 __init__()
 
