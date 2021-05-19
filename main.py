@@ -1,2 +1,6 @@
+def mul_num(a,b):
+    multiply=a*b
+    return multiply
 def __init__():
-    pass
+    print(mul_num(5,10))
+
