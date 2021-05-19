@@ -10,6 +10,9 @@ def tan_val(num) :
 def mul_num(a,b):
     multiply=a*b
     return multiply
+
+def mul_3num(a,b,c):
+	return a*b*c
     
 
 def rem(a,b):
@@ -26,6 +29,7 @@ def __init__():
     print('Tan value of number 10 is : ' + str(tan_val))
     print(rem(10,3))
     print(mul_num(5,10))
+    print(mul_3num(1,2,0))
 
 
 __init__()
