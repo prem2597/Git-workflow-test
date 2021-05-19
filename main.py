@@ -1,5 +1,6 @@
 
 import math
+import numpy as np
 
 def tan_val(num) :
     if str(num).isdidgit :
@@ -26,6 +27,7 @@ def __init__():
     print('Tan value of number 10 is : ' + str(tan_val))
     print(rem(10,3))
     print(mul_num(5,10))
+    print(np.pi)
 
 
 __init__()
