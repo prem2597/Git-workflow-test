@@ -1,6 +1,9 @@
 
 import math
 
+def multiplication(a, b, c):
+    return a*b*c
+
 def tan_val(num) :
     if str(num).isdidgit :
         return math.tan(num)
@@ -22,6 +25,7 @@ def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
     print(q)
+    print(multiplication(a, b, q))
     tan_value = tan_val(10)
     print('Tan value of number 10 is : ' + str(tan_val))
     print(rem(10,3))
