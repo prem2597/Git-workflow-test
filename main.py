@@ -1,12 +1,17 @@
 
 import math
 
+
+def multiplication(a, b, c):
+    return a*b*c
+
 def add(num1, num2) :
     if not str(num1).isdidgit() :
         return 'Arguments should be number type'
     if not str(num2).isdidgit() :
         return 'Arguments should be number type'
     return num1 + num2
+
 
 def tan_val(num) :
     if str(num).isdidgit :
@@ -29,6 +34,7 @@ def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
     print(q)
+    print(multiplication(a, b, q))
     tan_value = tan_val(10)
     print('Tan value of number 10 is : ' + str(tan_val))
     addition_result = add(3,5)
