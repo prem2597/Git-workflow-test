@@ -4,6 +4,7 @@ def subtraction(a,b):
 
 
 import math
+import numpy as np
 
 
 def multiplication(a, b, c):
@@ -48,8 +49,9 @@ def __init__():
     print('Addition of numbers 3 and 5 is : ' + str(addition_result))
     print(rem(10,3))
     print(mul_num(5,10))
+    print(np.pi)
     print(subtraction(5,3))
     print(addition(10,20))
-
+    
 __init__()
 
