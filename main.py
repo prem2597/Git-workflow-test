@@ -11,15 +11,15 @@ def multiplication(a, b, c):
     return a*b*c
 
 def add(num1, num2) :
-    if not str(num1).isdidgit() :
+    if not str(num1).isdigit() :
         return 'Arguments should be number type'
-    if not str(num2).isdidgit() :
+    if not str(num2).isdigit() :
         return 'Arguments should be number type'
     return num1 + num2
 
 
 def tan_val(num) :
-    if str(num).isdidgit :
+    if str(num).isdigit() :
         return math.tan(num)
     else :
         return 'Arguments should be number type'
@@ -46,6 +46,14 @@ def addition(a,b):
 def expotential(base, exponent):
     return base ** exponent
 
+# This method return True if the argument passed is not char
+
+def isDigit(num) :
+    if str(num).isdigit() :
+        return True
+    else :
+        return False
+
 def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
@@ -57,21 +65,14 @@ def __init__():
     print('Addition of numbers 3 and 5 is : ' + str(addition_result))
     print(rem(10,3))
     print(mul_num(5,10))
-<<<<<<< HEAD
-<<<<<<< HEAD
     print(mul_3num(1,2,0))
     print(np.pi)
     print(subtraction(5,3))
     print(addition(10,20))
-||||||| b5afca7
-||||||| b5afca7
-=======
     print(expotential(3,5))
->>>>>>> origin/skillstaxonomy_#exponential
-
-=======
     print(get_abs(-100))
->>>>>>> origin/get_abs
+    digit_result = isDigit(12)
+    print('Digit 12 : ' + str(digit_result))
 
 __init__()
 
