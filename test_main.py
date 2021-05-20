@@ -1,12 +1,10 @@
-import unittest
-import calc
+from main import *
 
-class TestCalc(unittest.TestCase):
-    def test_subtraction(self):
-        self.assertEqual(calc.subtraction(5, 5), 0)
-        self.assertEqual(calc.subtraction(-3, 3), -6)
-        self.assertEqual(calc.subtraction(-5, -5), 0)
+def test_subtraction():
+    assert subtraction(5, 5) == 0
+    assert subtraction(-3, 3) == -6
+    assert subtraction(-5, -5) == 0
+    print("All test cases passed")
 
-if __name__ == '__main__':
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+test_subtraction()
     
