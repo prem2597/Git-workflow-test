@@ -1,7 +1,7 @@
 from main import order
 
 
-assert(order(10) == 1)
+assert(order(10) == 2)
 assert(order('abcd') == 1)
 assert(order(0) == 0)
 assert(order(1234) == 3)
