@@ -43,6 +43,9 @@ def quiotent(a, b):
 def addition(a,b):
     return (a+b)
 
+def expotential(base, exponent):
+    return base ** exponent
+
 def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
@@ -55,11 +58,16 @@ def __init__():
     print(rem(10,3))
     print(mul_num(5,10))
 <<<<<<< HEAD
+<<<<<<< HEAD
     print(mul_3num(1,2,0))
     print(np.pi)
     print(subtraction(5,3))
     print(addition(10,20))
 ||||||| b5afca7
+||||||| b5afca7
+=======
+    print(expotential(3,5))
+>>>>>>> origin/skillstaxonomy_#exponential
 
 =======
     print(get_abs(-100))
