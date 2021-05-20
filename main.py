@@ -41,6 +41,11 @@ def addition(a,b):
 def expotential(base, exponent):
     return base ** exponent
 
+def swap(x,y):
+    temp = x
+    x = y
+    y = temp
+
 def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
@@ -58,6 +63,7 @@ def __init__():
     print(addition(10,20))
     print(expotential(3,5))
     print(get_abs(-100))
+    print(swap(5,6))
 
 
 __init__()
