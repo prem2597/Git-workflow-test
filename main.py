@@ -1,8 +1,3 @@
-
-def subtraction(a,b):
-    return a-b
-
-
 import math
 import numpy as np
 
@@ -57,21 +52,13 @@ def __init__():
     print('Addition of numbers 3 and 5 is : ' + str(addition_result))
     print(rem(10,3))
     print(mul_num(5,10))
-<<<<<<< HEAD
-<<<<<<< HEAD
     print(mul_3num(1,2,0))
     print(np.pi)
     print(subtraction(5,3))
     print(addition(10,20))
-||||||| b5afca7
-||||||| b5afca7
-=======
     print(expotential(3,5))
->>>>>>> origin/skillstaxonomy_#exponential
-
-=======
     print(get_abs(-100))
->>>>>>> origin/get_abs
+
 
 __init__()
 
