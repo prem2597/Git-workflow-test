@@ -41,6 +41,17 @@ def addition(a,b):
 def expotential(base, exponent):
     return base ** exponent
 
+def factorial(value):
+    factorial = 1
+    if value < 0:
+        return("Sorry, factorial does not exist for negative numbers")
+    elif value == 0:
+        return("The factorial of 0 is 1")
+    else:
+        for i in range(1,value + 1):
+            factorial = factorial*i
+        return("The factorial of",value,"is",factorial)
+
 def __init__():
     a, b = 10, 5
     q = quiotent(a, b)
@@ -58,7 +69,7 @@ def __init__():
     print(addition(10,20))
     print(expotential(3,5))
     print(get_abs(-100))
-
+    print(factorial(5))
 
 __init__()
 
