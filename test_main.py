@@ -1,6 +1,13 @@
 from main import *
 
 def test_armstrong():
+    assert isArmstrong(153) == True
+    assert isArmstrong(154) == False
+    assert isArmstrong(22) == False
+
+
+
+def test_armstrong():
     assert sum(10,20) == 30
     assert sum(-30,50) == 20
     assert sum(100.5,50.5) == 151
@@ -44,3 +51,4 @@ def test_quotient():
 test_multiplication()
 test_quotient()
 test_subtraction()
+test_armstrong()
