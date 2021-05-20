@@ -27,6 +27,9 @@ def tan_val(num) :
 def mul_num(a,b):
     multiply=a*b
     return multiply
+
+def mul_3num(a,b,c):
+	return a*b*c
     
 
 def rem(a,b):
@@ -49,9 +52,10 @@ def __init__():
     print('Addition of numbers 3 and 5 is : ' + str(addition_result))
     print(rem(10,3))
     print(mul_num(5,10))
+    print(mul_3num(1,2,0))
     print(np.pi)
     print(subtraction(5,3))
     print(addition(10,20))
-    
+
 __init__()
 
