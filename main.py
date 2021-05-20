@@ -72,7 +72,7 @@ def __init__():
     print(expotential(3,5))
     print(get_abs(-100))
     digit_result = isDigit(12)
-    print('Digit 12 : ' + str(digit_result))
+    print('Is 12 a digit : ' + str(digit_result))
 
 __init__()
 
