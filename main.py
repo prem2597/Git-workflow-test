@@ -41,6 +41,11 @@ def addition(a,b):
 def expotential(base, exponent):
     return base ** exponent
 
+def swap(x,y):
+    temp = x
+    x = y
+    y = temp
+
 def factorial(value):
     factorial = 1
     if value < 0:
@@ -69,6 +74,7 @@ def __init__():
     print(addition(10,20))
     print(expotential(3,5))
     print(get_abs(-100))
+    print(swap(5,6))
     print(factorial(5))
 
 __init__()
