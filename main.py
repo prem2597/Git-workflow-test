@@ -1,11 +1,26 @@
-
-def subtraction(a,b):
-    return a-b
-
-
 import math
 import numpy as np
 
+def power(x,y):
+    if y == 0:
+        return 1
+    if y%2 == 0:
+        return power(x,y // 2) * power(x,y // 2)
+    return x*power(x,y // 2) * power(x,y // 2)
+def order(x):
+    n = 0
+    while(x!=0):
+        n=n+1
+        x=x//10
+    return n
+def isArmstrong(x):
+    n=order(x)
+    temp=xsum1=0
+    while(temp!=0):
+        r=temp%10
+        sum1=sum1+power(r,n)
+        temp=temp // 10
+    return (sum1 == x)
 
 def multiplication(a, b, c):
     return a*b*c
@@ -53,6 +68,21 @@ def isDigit(num) :
         return True
     else :
         return False
+def swap(x,y):
+    temp = x
+    x = y
+    y = temp
+
+def factorial(value):
+    factorial = 1
+    if value < 0:
+        return("Sorry, factorial does not exist for negative numbers")
+    elif value == 0:
+        return("The factorial of 0 is 1")
+    else:
+        for i in range(1,value + 1):
+            factorial = factorial*i
+        return("The factorial of",value,"is",factorial)
 
 def __init__():
     a, b = 10, 5
@@ -74,5 +104,13 @@ def __init__():
     digit_result = isDigit(12)
     print('Is 12 a digit : ' + str(digit_result))
 
+    print(swap(5,6))
+    print(factorial(5))
+
+    print(isArmstrong(153))
+
+
 __init__()
+
+
 
