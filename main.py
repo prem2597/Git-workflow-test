@@ -26,15 +26,15 @@ def multiplication(a, b, c):
     return a*b*c
 
 def add(num1, num2) :
-    if not str(num1).isdidgit() :
+    if not str(num1).isdigit() :
         return 'Arguments should be number type'
-    if not str(num2).isdidgit() :
+    if not str(num2).isdigit() :
         return 'Arguments should be number type'
     return num1 + num2
 
 
 def tan_val(num) :
-    if str(num).isdidgit :
+    if str(num).isdigit() :
         return math.tan(num)
     else :
         return 'Arguments should be number type'
@@ -61,6 +61,13 @@ def addition(a,b):
 def expotential(base, exponent):
     return base ** exponent
 
+# This method return True if the argument passed is not char
+
+def isDigit(num) :
+    if str(num).isdigit() :
+        return True
+    else :
+        return False
 def swap(x,y):
     temp = x
     x = y
@@ -94,6 +101,8 @@ def __init__():
     print(addition(10,20))
     print(expotential(3,5))
     print(get_abs(-100))
+    digit_result = isDigit(12)
+    print('Is 12 a digit : ' + str(digit_result))
 
     print(swap(5,6))
     print(factorial(5))
