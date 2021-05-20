@@ -1,6 +1,15 @@
 from main import *
 
 
+def test_subtraction():
+    assert subtraction(5, 5) == 0
+    assert subtraction(-3, 3) == -6
+    assert subtraction(-5, -5) == 0
+    print("All test cases passed")
+
+
+    
+
 def test_multiplication():
     assert multiplication(1,2,0) == 0
     assert multiplication(-1,2,3) == -6
@@ -28,4 +37,4 @@ def test_quotient():
 
 test_multiplication()
 test_quotient()
-
+test_subtraction()
