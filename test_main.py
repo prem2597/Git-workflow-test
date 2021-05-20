@@ -5,14 +5,16 @@ def test_armstrong():
     assert isArmstrong(154) == False
     assert isArmstrong(22) == False
 
-
+def test_addition():
+    assert sum(10,20) == 30
+    assert sum(-30,50) == 20
+    assert sum(100.5,50.5) == 151
 
 def test_armstrong():
     assert sum(10,20) == 30
     assert sum(-30,50) == 20
     assert sum(100.5,50.5) == 151
 
-sum()
 
 def test_subtraction():
     assert subtraction(5, 5) == 0
@@ -62,3 +64,4 @@ test_multiplication()
 test_quotient()
 test_subtraction()
 test_armstrong()
+test_addition()
