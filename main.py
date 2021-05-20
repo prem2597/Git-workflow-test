@@ -31,6 +31,8 @@ def mul_num(a,b):
 def mul_3num(a,b,c):
 	return a*b*c
     
+def get_abs(value):
+    return abs(value)
 
 def rem(a,b):
 	return a%b
@@ -52,10 +54,16 @@ def __init__():
     print('Addition of numbers 3 and 5 is : ' + str(addition_result))
     print(rem(10,3))
     print(mul_num(5,10))
+<<<<<<< HEAD
     print(mul_3num(1,2,0))
     print(np.pi)
     print(subtraction(5,3))
     print(addition(10,20))
+||||||| b5afca7
+
+=======
+    print(get_abs(-100))
+>>>>>>> origin/get_abs
 
 __init__()
 
