@@ -16,12 +16,14 @@ def power(x,y):
     if y%2 == 0:
         return power(x,y // 2) * power(x,y // 2)
     return x*power(x,y // 2) * power(x,y // 2)
+    
 def order(x):
     n = 0
     while(x!=0):
         n=n+1
         x=x//10
     return n
+
 def isArmstrong(x):
     n=order(x)
     temp=xsum1=0
@@ -92,35 +94,4 @@ def factorial(value):
         for i in range(1,value + 1):
             factorial = factorial*i
         return("The factorial of",value,"is",factorial)
-
-def __init__():
-    a, b = 10, 5
-    q = quiotent(a, b)
-    print(q)
-    print(multiplication(a, b, q))
-    tan_value = tan_val(10)
-    print('Tan value of number 10 is : ' + str(tan_val))
-    addition_result = add(3,5)
-    print('Addition of numbers 3 and 5 is : ' + str(addition_result))
-    print(rem(10,3))
-    print(mul_num(5,10))
-    print(mul_3num(1,2,0))
-    print(np.pi)
-    print(subtraction(5,3))
-    print(addition(10,20))
-    print(expotential(3,5))
-    print(get_abs(-100))
-    print(iscomposite(a))
-    digit_result = isDigit(12)
-    print('Is 12 a digit : ' + str(digit_result))
-
-    print(swap(5,6))
-    print(factorial(5))
-
-    print(isArmstrong(153))
-
-
-__init__()
-
-
 
