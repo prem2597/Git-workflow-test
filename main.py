@@ -21,6 +21,7 @@ def isArmstrong(x):
         sum1=sum1+power(r,n)
         temp=temp // 10
     return (sum1 == x)
+
 def multiplication(a, b, c):
     return a*b*c
 
@@ -81,4 +82,6 @@ def __init__():
 
 
 __init__()
+
+
 
