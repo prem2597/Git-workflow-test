@@ -69,7 +69,10 @@ def quiotent(a, b):
 def addition(a,b):
     return (a+b)
 
+    
+
 def expotential(base, exponent):
+    base = 5
     return base ** exponent
 
 # This method return True if the argument passed is not char
