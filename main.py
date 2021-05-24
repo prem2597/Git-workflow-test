@@ -84,6 +84,12 @@ def swap(x,y):
     x = y
     y = temp
 
+def swapping(a,b):
+    temp = a 
+    a = b
+    b = temp
+    return a,b
+
 def factorial(value):
     factorial = 1
     if value < 0:
