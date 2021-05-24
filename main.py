@@ -1,15 +1,6 @@
 import math
 import numpy as np
 
-def iscomposite(number):
-    if n == 2:
-        return False
-    if n % 2 == 0:
-        return True
-    for i in range(2, int(math.sqrt(number)) + 1):
-        if number % i == 0:
-            return True
-    return False
 def power(x,y):
     if y == 0:
         return 1
